@@ -5,7 +5,7 @@ colorama==0.4.3
 coverage==5.2
 cycler==0.10.0
 Cython==0.29.20
-joblib==0.16.0
+joblib==1.2.0
 kiwisolver==1.2.0
 matplotlib==3.2.2
 more-itertools==8.4.0
