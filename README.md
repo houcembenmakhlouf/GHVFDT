@@ -47,7 +47,7 @@ How?
 <center>
   
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45092804/197560897-ca154caa-2357-4c9b-bbf1-b4680b7aa84e.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/45092804/197560897-ca154caa-2357-4c9b-bbf1-b4680b7aa84e.png" width="600" />
 </p>
 
 </center>
