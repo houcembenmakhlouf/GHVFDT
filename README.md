@@ -32,12 +32,15 @@ How?
 • Then getting the one that maximises the Hellinger distance between both distribution
 
 ## dataset
+• class inseparability: distributions of minority class and majority class are superposed (fig. c)
+• small disjuncts: distribution of minority class is composed of disjuncts small distribution (fig. d)
 
 <center>
   
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45092804/197558082-dd8dc3a5-545f-456e-873c-0998b0abedb2.png" width="600" />
+  <img src="https://user-images.githubusercontent.com/45092804/197558082-dd8dc3a5-545f-456e-873c-0998b0abedb2.png" width="300" />
 </p>
 
 </center>
 
+![image](https://user-images.githubusercontent.com/45092804/197560897-ca154caa-2357-4c9b-bbf1-b4680b7aa84e.png)
