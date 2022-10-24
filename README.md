@@ -43,7 +43,7 @@ How?
 
 </center>
 
-3 databases were used:
+Three databases were used. The skin dataset is collected by randomly sampling B,G,R values from face images of various age groups (young, middle, and old). Pulsars are a rare type of Neutron star that produce radio emission detectable here on Earth:
 <center>
   
 <p align="center">
@@ -51,3 +51,14 @@ How?
 </p>
 
 </center>
+
+## implementation
+• Implementation of GHVFDT using the source code of Scikit-Multiflow
+• New tree: ghvfdt_tree.py
+• New split criterion: gaussian_hellinger_criterion.py
+• New attribute observer: gh_numeric_attribute_class_observer_gaussian.py
+• 3 new types of nodes: gh_active_learning_node.py, gh_learning_node_nb.py and gh_learning_node_nb_adaptive.py
+
+• split criterion: one of the methods the criterion has is compute_Hellinger(), which calculates the Hellinger distance as in Eq.2 in the paper #### Hellinger Distance Trees for Imbalanced Streams( https://arxiv.org/pdf/1405.2278.pdf )
+
+
