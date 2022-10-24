@@ -43,6 +43,7 @@ How?
 
 </center>
 
+3 databases were used:
 <center>
   
 <p align="center">
