@@ -21,3 +21,23 @@ The algorithm uses tree learning, whereby the data are partitioned using feature
 
 </center>
 
+## The key feature of the GH-VFDT
+
+• The use of Hellinger distance criterion for the evaluation of the split points during learning
+• Only the mean and the standard deviation of the distributions of majority and minority classes of the corresponding features need to be known
+• This measure prevent the classifier from becoming biased to non-pulsar class
+
+How?
+• by modelling each feature distribution as a Guassian, the distance between majority and minority distributions P and Q can be measured 
+• Then getting the one that maximises the Hellinger distance between both distribution
+
+## dataset
+
+<center>
+  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45092804/197558082-dd8dc3a5-545f-456e-873c-0998b0abedb2.png" width="600" />
+</p>
+
+</center>
+
