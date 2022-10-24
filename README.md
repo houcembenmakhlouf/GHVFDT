@@ -77,6 +77,8 @@ Two functions were implemented:
 • Trying to reproduce the tables in the paper, experiments were done with the new GHVFDT and the old HDVFDT on the 3 datasets
 • One experiment consists in pre-training the tree on the train set then testing it on the different test sets. 
 • For each tree, this experiment is repeated 10 times with different random arrangement of the data to get average values of the F-score and GM. 
-
+## Results
+• A function that create 16 test sets (.csv) with different imbalance rates (+1:-10, +1:-100, +1:-1000, +1:-10000) and different labelling rates (10%, 50%, 75%, 100%) as in the paper. The tables below show the results (F-score/G-Mean) for each dataset.
+   
 ![image](https://user-images.githubusercontent.com/45092804/197604445-fd5cee6b-dcf5-446c-8809-dc178df6f1d7.png)
 
