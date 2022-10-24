@@ -68,4 +68,15 @@ Three databases were used. The skin dataset is collected by randomly sampling B,
 </p>
 
 </center>
+• Attribute observer: get_best_evaluated_split_suggestions(), which returns the best split suggestion of the corresponding feature 
+## training
+Two functions were implemented:
+• Train_tree() : for pre-training 
+• Test_tree() 
+• In these functions, the streams were created from the .csv files. Then, an incremental test-then-train approach was adopted as mentioned in the paper. At the end the F-score and GM were calculated
+• Trying to reproduce the tables in the paper, experiments were done with the new GHVFDT and the old HDVFDT on the 3 datasets
+• One experiment consists in pre-training the tree on the train set then testing it on the different test sets. 
+• For each tree, this experiment is repeated 10 times with different random arrangement of the data to get average values of the F-score and GM. 
+
+![image](https://user-images.githubusercontent.com/45092804/197604445-fd5cee6b-dcf5-446c-8809-dc178df6f1d7.png)
 
