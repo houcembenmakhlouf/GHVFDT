@@ -59,6 +59,6 @@ Three databases were used. The skin dataset is collected by randomly sampling B,
 • New attribute observer: gh_numeric_attribute_class_observer_gaussian.py
 • 3 new types of nodes: gh_active_learning_node.py, gh_learning_node_nb.py and gh_learning_node_nb_adaptive.py
 
-• split criterion: one of the methods the criterion has is compute_Hellinger(), which calculates the Hellinger distance as in Eq.2 in the paper #### Hellinger Distance Trees for Imbalanced Streams( https://arxiv.org/pdf/1405.2278.pdf )
+• split criterion: one of the methods the criterion has is compute_Hellinger(), which calculates the Hellinger distance as in Eq.2 in the paper ** Hellinger Distance Trees for Imbalanced Streams ** ( https://arxiv.org/pdf/1405.2278.pdf )
 
 
